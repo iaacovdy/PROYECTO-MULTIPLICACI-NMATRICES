@@ -83,11 +83,11 @@ public class PROGRAMACIÓN_PROYECTOSMATRICES_MIRANDAMARTÍNEZ {
                 contador_vector+=1;
             }
         }
-        
-        //for(int i=0;i<vector.length;i++){
-        //    System.out.print(vector[i]+" ");
-        //}
-        
+        Arrays.sort(vector);
+        for(int i=0;i<vector.length;i++){
+            System.out.print(vector[i]+" ");
+        }
+
     }
 
 }
